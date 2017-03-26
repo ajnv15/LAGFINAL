@@ -8,6 +8,7 @@
   <script src="dist/sweetalert-dev.js"></script>
   <link rel="stylesheet" href="dist/sweetalert.css">
   <script src="dist/sweetalert-dev.js"></script>
+
   <link rel="stylesheet" href="dist/sweetalert.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
@@ -158,7 +159,31 @@ $(document).ready(function(){
     }
     });
 
+$("#u173_states").click(function (){
 
+  swal({
+   title: "Mensaje",
+   text: "Programa sujeto a cambios sin previo aviso",
+   html: true,
+   timer: 1500
+ });
+
+});
+
+var target = $("#u2469_img").offset().top;
+
+
+var interval = setInterval(function() {
+    if ($(window).scrollTop() > target) {
+      swal({
+       title: "Mensaje",
+       text: "Programa sujeto a cambios sin previo aviso",
+       html: true,
+       timer: 1500
+     });
+    clearInterval(interval);
+    }
+}, 1);
 
 });
 </script>
@@ -167,8 +192,19 @@ $(document).ready(function(){
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=179389031" id="pagesheet"/>
+  <style>
+  body { font-family:'Quicksand';}
+  h2 { font-size:16px;}
+  .container { margin:150px auto; max-width:600px; padding:10px; background: linear-gradient(to top right, #060628, #1F245A, #682359); color:#fff;}
+  </style>
    </head>
  <body>
+
+   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+   <script type="text/javascript" src="scripts/marquee.js"></script>
+
 
   <div class="clearfix borderbox" id="page"><!-- group -->
    <div class="shadow clip_frame grpelem" id="u94"><!-- image -->
@@ -224,9 +260,12 @@ $(document).ready(function(){
    </div>
    <a class="nonblock nontext grpelem" id="u800" href="CONOCENOS"><!-- simple frame --></a>
    <a class="anchor_item grpelem" id="ponentes"></a>
-   <div class="shadow clip_frame grpelem" id="u2469"><!-- image -->
+   <div class="shadow clip_frame grpelem" id="u2469">
+  <!-- image -->
     <img class="block" id="u2469_img" src="images/programa%20(1).jpg?crc=54899802" alt="" data-image-width="1046" data-image-height="1356"/>
+
    </div>
+
    <div class="clearfix grpelem" id="pprograma"><!-- column -->
     <a class="anchor_item colelem" id="programa"></a>
     <a class="anchor_item colelem" id="patrocinadores"></a>
