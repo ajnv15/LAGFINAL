@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="politecnicafinal.com" resolutions="1x" timestamp="1488351257264">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="politecnicafinal.com" resolutions="1x" timestamp="1490774226580">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="179389031" ref="index"/>
+    <file name="index.css" crc="4216642620" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -52,16 +52,19 @@
     <file name="u179_states-r.png" crc="4187497851" ref="index"/>
     <file name="u179_states-a.png" crc="230084285" ref="index"/>
     <file name="ponentes-u495.png" crc="3866362099" ref="index"/>
-    <file name="programa (1).jpg" crc="54899802" seo="true" ref="index"/>
+    <file name="aceros (1).png" crc="4056149603" seo="true" ref="index"/>
+    <file name="logo libertad ruiz.png" crc="351863235" seo="true" ref="index"/>
+    <file name="vwtangamanga_logotipo_rgb.jpg" crc="148263922" seo="true" ref="index"/>
+    <file name="programa-crop-u2469.jpg" crc="4149564063" ref="index"/>
     <file name="u2082-12.png" crc="456031646" ref="index"/>
     <file name="u2085-9.png" crc="4069477664" ref="index"/>
-    <file name="u1710-10.png" crc="45442382" ref="index"/>
+    <file name="u1710-8.png" crc="3875808751" ref="index"/>
     <file name="u2050-9.png" crc="4197863584" ref="index"/>
     <file name="u2062-13.png" crc="350538233" ref="index"/>
     <file name="u2499-16.png" crc="4047001016" ref="index"/>
     <file name="u1644-15.png" crc="336862232" ref="index"/>
     <file name="16910930_10212528847446910_907668818_o-u2088.png" crc="3818873844" ref="index"/>
-    <file name="13 central-u939.png" crc="3809676210" ref="index"/>
+    <file name="13 central-u939.png" crc="4263159378" ref="index"/>
     <file name="titulo conferencia.png" crc="3978156924" ref="index"/>
     <file name="u2076-4.png" crc="4195895121" ref="index"/>
     <file name="u2446.png" crc="456310885" ref="index"/>
@@ -84,6 +87,16 @@
     <file name="u1675-4.png" crc="4211071727" ref="index"/>
     <file name="u1724-4.png" crc="4062662830" ref="index"/>
     <file name="u704-4.png" crc="237065417" ref="index"/>
+    <file name="citadella 1.png" crc="404683243" seo="true" ref="index"/>
+    <file name="img-20170314-wa0021.jpg" crc="234337182" seo="true" ref="index"/>
+    <file name="impacto total boletur.jpg" crc="4181230278" seo="true" ref="index"/>
+    <file name="la casa del arbol.jpg" crc="485010321" seo="true" ref="index"/>
+    <file name="la vida va 1.png" crc="3988199550" seo="true" ref="index"/>
+    <file name="pasgar.png" crc="57313974" seo="true" ref="index"/>
+    <file name="travel logo png tomy.png" crc="4166670903" seo="true" ref="index"/>
+    <file name="triplaymarket 2.png" crc="236966470" seo="true" ref="index"/>
+    <file name="tu destino logo a.jpg" crc="289410656" seo="true" ref="index"/>
+    <file name="unnamed (1).jpg" crc="489051832" seo="true" ref="index"/>
     <file name="u719-4.png" crc="4238419597" ref="index"/>
     <file name="u751.png" crc="3807779363" ref="index"/>
     <file name="u751-ferr.png" crc="3826454915" ref="index"/>
@@ -103,5 +116,5 @@
     <file name="u2146-8.png" crc="68069873" ref="index"/>
     <file name="16832741_10212529346099376_301287500_o.png" crc="508663022" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="4161882964" seo="true" mt="1488351248461" redirect="true"/>
+  <file name="index.html" crc="4051108680" seo="true" mt="1490774222091" redirect="true"/>
 </manifest>
